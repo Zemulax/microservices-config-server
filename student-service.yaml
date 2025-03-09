@@ -1,4 +1,7 @@
-username: root
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/students?createDatabaseIfNotExist=true
+    username: root
     password: mozay
 
   jpa:
